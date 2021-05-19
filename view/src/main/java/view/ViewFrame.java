@@ -120,18 +120,19 @@ class ViewFrame extends JFrame implements KeyListener {
 	}
 
 	/**
-	 * Builds the view frame.
+	 * Create the game view window
 	 *
 	 * @param model
 	 *          the model
 	 */
 	private void buildViewFrame(final IModel model) {
 		this.setModel(model);
+		this.setTitle("Jeu Boulder Dash !");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
 		this.addKeyListener(this);
 		this.setContentPane(new ViewPanel(this));
-		this.setSize(400 + this.getInsets().left + this.getInsets().right, 60 + this.getInsets().top + this.getInsets().bottom);
+		this.setSize(model.getMap().getWidth()*16 + 6 , model.getMap().getHeight()*16 + 35);
 		this.setLocationRelativeTo(null);
 	}
 
@@ -145,29 +146,18 @@ class ViewFrame extends JFrame implements KeyListener {
 		JOptionPane.showMessageDialog(null, message);
 	}
 
-	/*
-	 * (non-Javadoc)
-	 *
-	 * @see java.awt.event.KeyListener#keyTyped(java.awt.event.KeyEvent)
-	 */
+	
 	public void keyTyped(final KeyEvent e) {
 
 	}
 
-	/*
-	 * (non-Javadoc)
-	 *
-	 * @see java.awt.event.KeyListener#keyPressed(java.awt.event.KeyEvent)
-	 */
+	
 	public void keyPressed(final KeyEvent e) {
 		this.getController().orderPerform(View.keyCodeToControllerOrder(e.getKeyCode()));
+		repaint();
 	}
 
-	/*
-	 * (non-Javadoc)
-	 *
-	 * @see java.awt.event.KeyListener#keyReleased(java.awt.event.KeyEvent)
-	 */
+	
 	public void keyReleased(final KeyEvent e) {
 
 	}

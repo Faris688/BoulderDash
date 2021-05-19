@@ -1,21 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-  <name>model</name>
-  <comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
-  <projects>
-    <project>contract</project>
-    <project>entity</project>
-  </projects>
-  <buildSpec>
-    <buildCommand>
-      <name>org.eclipse.jdt.core.javabuilder</name>
-    </buildCommand>
-    <buildCommand>
-      <name>org.eclipse.m2e.core.maven2Builder</name>
-    </buildCommand>
-  </buildSpec>
-  <natures>
-    <nature>org.eclipse.jdt.core.javanature</nature>
-    <nature>org.eclipse.m2e.core.maven2Nature</nature>
-  </natures>
+	<name>model</name>
+	<comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>contract</project>
+		<project>entity</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/resources/Death.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/Death.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/Down.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/Down.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/Left.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/Left.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/Normal.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/Normal.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/Player.jpg</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/Player.jpg</location>
+		</link>
+		<link>
+			<name>src/main/resources/Right.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/Right.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/Star.PNG</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/Star.PNG</location>
+		</link>
+		<link>
+			<name>src/main/resources/Up.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/Up.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/diamond.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/diamond.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/emptyGround.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/emptyGround.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/ground.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/ground.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/monster.PNG</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/monster.PNG</location>
+		</link>
+		<link>
+			<name>src/main/resources/rock.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/rock.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/unbreakableWall.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/unbreakableWall.png</location>
+		</link>
+		<link>
+			<name>src/main/resources/wall.png</name>
+			<type>1</type>
+			<location>C:/Users/client/Music/Java Project/wall.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>
